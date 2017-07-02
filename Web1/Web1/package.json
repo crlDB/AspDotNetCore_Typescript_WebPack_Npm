@@ -13,7 +13,9 @@
     "webpack": "^3.0.0"
   },
   "dependencies": {
+    "@types/bootstrap": "^3.3.34",
     "@types/jquery": "^2.0.0",
+    "bootstrap": "^3.3.7",
     "jquery": "^3.2.1"
   }
 }

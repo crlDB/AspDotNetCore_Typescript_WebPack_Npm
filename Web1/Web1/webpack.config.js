@@ -10,8 +10,8 @@ module.exports = {
     devtool: 'source-map',
     entry: {
         app: './src/ts/main.ts',
-        vendor1: ['jquery'//,
-            //'bootstrap',
+        vendor1: ['jquery',
+            'bootstrap'
             //'jqueryui',
             //'jspanel3',
             //'jquery.splitter',
@@ -64,11 +64,11 @@ module.exports = {
         ]
     },
     plugins: [
-        //new webpack.ProvidePlugin({     
-        //   jQuery: 'jquery',
-        //    $: 'jquery',
-        //    jquery: 'jquery'
-        //}),
+        new webpack.ProvidePlugin({     
+           jQuery: 'jquery',
+            $: 'jquery',
+            jquery: 'jquery'
+        }),
         //new ExtractTextPlugin("[name].css"),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'vendor1',

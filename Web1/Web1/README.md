@@ -19,5 +19,9 @@
 * npm link typescript
 * npm install --save-dev ts-loader 
 * npm install --save jquery
-* npm install --save @types/jquery
+* npm install --save @types/jquery (restart vS2017 for intellisence)
+* main.ts -> import $ = require("jquery");
+* npm install --save bootstrap
+* npm install --save @types/bootstrap
+* bundle.config.json -> add css bootstrap
 * 

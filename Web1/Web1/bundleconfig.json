@@ -1,24 +1,29 @@
 ﻿// Configure bundling and minification for the project.
 // More info at https://go.microsoft.com/fwlink/?LinkId=808241
 [
-  {
-    "outputFileName": "wwwroot/css/site.min.css",
+   {
+    "outputFileName": "wwwroot/app.vendor.bundle1.css",
     // An array of relative input file paths. Globbing patterns supported
     "inputFiles": [
-      "wwwroot/css/site.css"
-    ]
-  },
-  {
-    "outputFileName": "wwwroot/js/site.min.js",
-    "inputFiles": [
-      "wwwroot/js/site.js"
+      "node_modules/bootstrap/dist/css/bootstrap.css"
+      //"wwwroot/css/site.css",
+      //"node_modules/jqueryui/jquery-ui.css",
+      //"node_modules/jspanel3/source/jquery.jspanel.css",
+      //"node_modules/jquery.fancytree/dist/skin-win8/ui.fancytree.css",
+      //"node_modules/jquery.splitter/css/jquery.splitter.css",
+      //"node_modules/handsontable/dist/handsontable.full.css",
+      //"node_modules/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css",
+      //"node_modules/font-awesome/css/font-awesome.css",
+      //"node_modules/swipebox/src/css/swipebox.css"
+
     ],
     // Optionally specify minification options
     "minify": {
       "enabled": true,
-      "renameLocals": true
-    },
-    // Optionally generate .map file
-    "sourceMap": false
+      "commentMode": "none",
+      "adjustRelativePaths": true
+    }
   }
+
+
 ]
