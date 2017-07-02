@@ -1,3 +1,4 @@
 ﻿
 * create project
-* *
+* init npm
+* 
