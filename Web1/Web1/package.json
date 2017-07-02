@@ -1,0 +1,19 @@
+{
+  "name": "web1",
+  "version": "1.0.0",
+  "description": "* create project\r * init npm\r *",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^2.2.2",
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^2.0.0",
+    "jquery": "^3.2.1"
+  }
+}

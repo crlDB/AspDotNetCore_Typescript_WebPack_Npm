@@ -1,0 +1,22 @@
+{
+   "exclude": [
+    "typings",
+    "node_modules",
+    "wwwroot"
+  ],
+
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+
+    "target": "es5",
+    "rootDir": "./src/ts",
+    "outDir": "./src/js",
+    "sourceMap": true
+  },
+ 
+  "compileOnSave": false
+
+}
