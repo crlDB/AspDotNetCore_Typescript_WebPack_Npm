@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var $ = __webpack_require__(0);
 //import bootstrap = require("bootstrap")
 //alert('loaded');
-var web = $('body');
+var web = $('#container');
 var div1 = $('<div/>', {
     'style': 'display: none'
 }).appendTo(web);

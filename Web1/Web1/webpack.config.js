@@ -75,7 +75,8 @@ module.exports = {
             chuncks: ['app'],
             filename: './wwwroot/app.vendor.bundle1.js',
             minChunks: Infinity
-        })
+        })//,
+        
         //new UglifyJSPlugin({
         //    sourceMap: true
         //})
